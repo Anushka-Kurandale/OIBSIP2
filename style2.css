@@ -1,0 +1,44 @@
+
+#aboutme{
+    cursor: pointer;
+    padding: 150px 70px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    background-color: rgb(231, 231, 233);
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    font-family: 'Poppins', sans-serif;
+}
+.leftbio{
+    flex-basis: 40%;
+}
+.rightbio{
+    flex-basis:60%;
+}
+.leftbio img{
+    width: 80%;
+    height: 700px;
+    border-radius: 8px;
+}
+.rightbio{
+    text-align: right;
+    
+}
+.rightbio p{
+    margin: 15px 0;
+    line-height: 2.5rem;
+
+}
+.rightbio h1{
+    font-size: 3rem;
+}
+
+.info{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    text-align: left;
+}
